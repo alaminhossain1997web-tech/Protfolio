@@ -72,7 +72,7 @@ const ContactForm = () => {
 
   return (
     <div className="bg-white p-8 rounded-2xl shadow-sm">
-      <form onSubmit={handleSubmit} className="space-y-5">
+      <form onSubmit={handleSubmit} action="https://formspree.io/f/mojojvap" method="POST" className="space-y-5">
 
         {/* Name */}
         <div>

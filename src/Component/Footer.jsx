@@ -3,6 +3,7 @@ import {
   FaLinkedinIn,
   FaXTwitter,
 } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 import { Link } from "react-router";
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
           {/* Logo */}
           <div>
             <h2 className="text-2xl font-bold tracking-tight text-white">
-              dev<span className="text-blue-500">.</span>
+              Al-Amin
             </h2>
           </div>
 
@@ -31,13 +32,13 @@ const Footer = () => {
               to="https://github.com/alaminhossain1997web-tech"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-white/10 hover:text-white"
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-sky-500 hover:text-white"
             >
               <FaGithub size={18} />
             </Link>
 
             <Link
-              to="https://linkedin.com"
+              to="https://www.linkedin.com/in/alamin-hossain-037a84333?"
               target="_blank"
               rel="noopener noreferrer"
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-[#0A66C2] hover:text-white"
@@ -46,12 +47,12 @@ const Footer = () => {
             </Link>
 
             <Link
-              to="https://twitter.com"
+              to="mailto://www.alaminhossain1997.web@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex h-10 w-10 items-center justify-center rounded-full bg-white/5 text-slate-400 transition-all hover:bg-sky-500 hover:text-white"
             >
-              <FaXTwitter size={18} />
+              <SiGmail  size={18} />
             </Link>
 
           </div>

@@ -6,6 +6,8 @@ import Contact from "./Pages/Contact";
 import { Link } from "react-router";
 import Footer from "./Component/Footer";
 import Navbar from "./Component/Navbar";
+import Projects from "./Component/projects";
+import Certificates from "./Component/Certificates";
 
 const App = () => {
   
@@ -148,6 +150,8 @@ const App = () => {
 
 
       <About />
+      <Projects/>
+      <Certificates/>
       <Contact/>
       <Footer/>
 
