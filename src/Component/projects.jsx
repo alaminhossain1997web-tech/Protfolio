@@ -22,12 +22,12 @@ const projects = [
     live: 'https://alpha-omega-inter-church-trust.netlify.app/',
   },
   {
-    title: 'AI Content Generator',
+    title: ' Ongoing School Management System',
     description:
-      'An AI-powered application that helps creators generate blog posts, social media content, and marketing copy.',
-    image: '/ai-content.jpg',
-    tech: ['React', 'OpenAI API', 'Express', 'PostgreSQL'],
-    github: '#',
+      'A complete responsive web app for School management System, Role based access control and event management.',
+    image: '/appIcon.jpg',
+    tech: ['React', 'mongoDB', 'Express.js', 'Node.js'],
+    github: 'https://github.com/alaminhossain1997web-tech/student-management-system.git',
     live: '#',
   },
 ]
@@ -38,11 +38,11 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-2xl mx-auto mb-16 text-center">
-          <h2 className="mb-4 text-3xl font-bold text-slate-900 md:text-4xl">
+          <h2 className="mb-4 text-3xl font-bold md:text-4xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Featured Projects
           </h2>
 
-          <div className="w-16 h-1 mx-auto mb-6 rounded-full bg-blue-600"></div>
+          <div className="w-16 h-1 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"></div>
 
           <p className="text-lg text-slate-600">
             Here are some of the projects I've worked on recently. Each one
@@ -107,7 +107,7 @@ export default function Projects() {
                     className="ml-auto flex items-center gap-2 text-sm font-medium text-slate-600 transition-colors hover:text-blue-600"
                   >
                     <FaExternalLinkAlt size={14} />
-                    Live Demo
+                   Live
                   </a>
                 </div>
               </div>
