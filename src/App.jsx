@@ -62,7 +62,7 @@ const App = () => {
                 </a>
 
                 <Link
-                  to="https://docs.google.com/document/d/1_5xwgNCQZY1RUYhqWBrNdTkLWuJ8D7eN/edit"
+                  to="https://drive.google.com/file/d/18Gkm19ptPagVrYFopWtHBWlUk8a34_ji/view?usp=sharing"
                   className="flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-6 py-3 font-medium text-slate-700 transition hover:bg-slate-50"
                 >
                   <FaDownload size={14} />
